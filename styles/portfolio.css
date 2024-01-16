@@ -15,25 +15,55 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin: 0 200px;
-}
-.nav-title {
+}  
+
+/* to color Mary  */
+
+.nav-marry-title {
     color: #04040e;
 font-size: 45px;
 font-weight: 800;
 
 }
+ 
+/* styles of navigation un-ordered-list */
 
 nav > ul {
     display:flex ;
     align-items: center;
 }
+
+/* styles of navigation list (right) */
+
 nav li{
     list-style: none;
     margin-right: 50px;
 }
+
+/* styles for nav anchor */
 nav a {
     text-decoration: none;
     text color: #474747;
+}
+
+.section-title{
+
+color:#181818;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+
+}
+
+.description{
+
+    color:#757575);
+    text-align: center;
+    font-size: 18px;
+    
+   
+
+
 }
 
 .button-primary{
@@ -49,12 +79,16 @@ padding: 15px 35px;
 
 .header{
     background:#FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner {
-    padding: 30px 30px 30px 200px;
+    padding: 30px 30px 30px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 
@@ -62,11 +96,40 @@ padding: 15px 35px;
     width: 500px;
 }
 
+.welcoming {
+    font-size: 45px;
+color: #474747;
+margin: 0;
+
+}
+.name{
+   
+font-size: 85px;
+font-weight: 700;
+margin-top: 5px;
+
+}
+
+.banner-short-intro{
+   color: #757575;
+font-size: 18px;
+}
+.banner-content{
+    max-width: 500px;
+}
+
+
+/* main section styles */
 
 
 
-
-
+/* about section styles */
+.about{
+padding: 130px;
+border-radius: 10px;
+background: #FFF8F3;
+margin: 130px;
+}
 
 
 
