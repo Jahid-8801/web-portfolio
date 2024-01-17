@@ -144,3 +144,20 @@ margin: 130px;
 .about-lastpart-info{
     text-align: center;
 }
+
+
+/* skills related style */
+#what-i-do-description{
+padding: 30px 150px;
+
+}
+
+.skills-container{
+    display: flex;
+}
+
+.skill{
+    padding: 30px;
+    gap: 24px;
+}
+
