@@ -55,7 +55,7 @@ font-weight: 700;
 
 }
 
-.description{
+.section-description{
 
     color:#757575);
     text-align: center;
@@ -121,6 +121,11 @@ font-size: 18px;
 
 /* main section styles */
 
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 
 
 /* about section styles */
@@ -132,4 +137,10 @@ margin: 130px;
 }
 
 
-
+.about-lastpart-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-lastpart-info{
+    text-align: center;
+}
